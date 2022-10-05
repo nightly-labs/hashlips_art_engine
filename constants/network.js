@@ -1,8 +1,9 @@
 const NETWORK = {
-  eth: "eth",
-  sol: "sol",
-};
+  eth: 'eth',
+  sol: 'sol',
+  aptos: 'aptos',
+}
 
 module.exports = {
   NETWORK,
-};
+}

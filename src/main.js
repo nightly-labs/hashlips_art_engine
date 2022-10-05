@@ -157,7 +157,7 @@ const addMetadata = (_dna, _edition) => {
       name: tempMetadata.name,
       symbol: solanaMetadata.symbol,
       description: tempMetadata.description,
-      uri: `${_edition}.png`,
+      uri: `URI_TO_REPLACE_WHEN_DEPLOYED/${_edition}.png`,
       attributes: tempMetadata.attributes,
       edition: _edition,
     }
